@@ -1,0 +1,10 @@
+$primary: #007bff;
+$secundary: #6610f2;
+
+$media-md: 768px;
+
+@mixin md {
+    @media (min-width: #{$media-md}) {
+        @content;
+    }
+}
